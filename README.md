@@ -1,7 +1,3 @@
-Great! Here's your polished `README.md` — clean, simple, and ready to copy into your repo:
-
----
-
 # Pymodbus Scripts
 
 Simple Python scripts to read from and write to Modbus devices using the `pymodbus` library.
@@ -41,7 +37,3 @@ To **write data** to a Modbus device:
 ```bash
 python change_data.py
 ```
-
----
-
-Feel free to customize these scripts further based on your setup!
