@@ -1,35 +1,47 @@
-Pymodbus Scripts
-Simple Python scripts to read from and write to Modbus devices using pymodbus.
+Great! Here's your polished `README.md` — clean, simple, and ready to copy into your repo:
 
-Quick Start
-1. Clone the Repository
-bash
-Copy
-Edit
+---
+
+# Pymodbus Scripts
+
+Simple Python scripts to read from and write to Modbus devices using the `pymodbus` library.
+
+## 🚀 Quick Start
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/PJ-Hackers/Pymodbus.git
 cd Pymodbus
-2. Install Requirements
-bash
-Copy
-Edit
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-3. Configure
-Open read_data.py or change_data.py in a text editor.
+```
 
-Change the IP address to match your Modbus device.
+### 3. Configure the Scripts
 
-Set the Modbus address and any other parameters as needed.
+Open either `read_data.py` or `change_data.py` in any text editor.
 
-4. Run the Script
-To read data:
+* Replace the **IP address** with your Modbus device’s IP
+* Set the **Modbus unit ID**, **register address**, and other required values
 
-bash
-Copy
-Edit
+### 4. Run the Scripts
+
+To **read data** from a Modbus device:
+
+```bash
 python read_data.py
-To write data:
+```
 
-bash
-Copy
-Edit
+To **write data** to a Modbus device:
+
+```bash
 python change_data.py
+```
+
+---
+
+Feel free to customize these scripts further based on your setup!
