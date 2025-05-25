@@ -2,7 +2,7 @@ from pymodbus.client import ModbusTcpClient
 from pymodbus.pdu import ExceptionResponse
 
 # Configuration
-MODBUS_SERVER_IP = '172.16.0.20'
+MODBUS_SERVER_IP = '172.16.0.20' #Put your modbus IP address
 MODBUS_PORT = 502
 UNIT_ID = 1  # Slave ID
 
