@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ### 3. Configure the Scripts
 
-Open either `read_data.py` or `change_data.py` in any text editor.
+Open either `Read_data.py` or `Change_data.py` in any text editor.
 
 * Replace the **IP address** with your Modbus device’s IP
 * Set the **Modbus unit ID**, **register address**, and other required values
